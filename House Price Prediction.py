@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-DATA_PATH = ""data/house_price_dataset.csv"
+DATA_PATH = "data/train.csv"
 if not os.path.exists(DATA_PATH):
     raise FileNotFoundError(
         "Dataset not found. Please download from Kaggle (see README)."
