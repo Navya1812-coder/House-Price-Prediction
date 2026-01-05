@@ -13,13 +13,21 @@ https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
 pip install kaggle
 ```
 ### Step 2: Download Dataset
+```bash
 kaggle competitions download -c house-prices-advanced-regression-techniques
+```
 ### Step 3: Extract Dataset
+```bash
 unzip house-prices-advanced-regression-techniques.zip -d data/
+```
 ### Step 4: Install Requirements
+```bash
 pip install -r requirements.txt
+```
 ### Step 5: Run Code
+```bash
 python House\ Price\ Prediction.py
+```
 
 
 
